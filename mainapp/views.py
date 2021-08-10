@@ -12,3 +12,5 @@ def second_page(request):
 def profile_page(request):
     return HttpResponse("Profile")
 
+def newpage(request):
+    return HttpResponse("Vision")
