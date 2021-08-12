@@ -24,3 +24,6 @@ def newpage(request):
 
 def example(request):
     return render(request, 'example.html')
+
+def shop(request):
+    return render(request, 'shop.html')
