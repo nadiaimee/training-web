@@ -27,3 +27,22 @@ def example(request):
 
 def shop(request):
     return render(request, 'shop.html')
+
+def shop_food(request):
+    return render(request, 'shop_food.html')
+
+
+def shop_home(request):
+    return render(request, 'shop_home.html')
+
+
+def shop_plant(request):
+    return render(request, 'shop_plant.html')
+
+
+def firstpage(request):
+    return render(request, 'firstpage.html')
+
+
+def secondpage(request):
+    return render(request, 'secondpage.html')
