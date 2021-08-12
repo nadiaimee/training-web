@@ -13,5 +13,5 @@ urlpatterns = [
     path('sapa/<str:nama>/', views.sapa),
     path('profile/', views.profile_page),
     path('about/', views.second_page),
-    path('', views.landing_page),
+    path('', views.shop),
 ]
